@@ -14,10 +14,27 @@ The purpose of this Analysis was to help with a local congressional election aud
 ### Election - Audit Results
 
 * There were a total of 369,711 votes casted in this election.
+  - We found the total number of votes through this piece of code
+ 
+ - election_results = (
+        f"\nElection Results\n"
+        f"-------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------\n\n"
+        f"County Votes:\n")
+    print(election_results, end="")
+    
+    
 * There county's involved were Denver, Jefferson, and Arapahoe.
+  - We found county results through
+   
+   county_results = f"{county_name}: {county_vote_percentage:.1f}% ({county_vote:,})\n"
+            print(county_results)
+            
   - Denver had 82.8% or (306,055) of the votes.
   - Jefferson had 10.5% or (38,855) of the votes.
   - Arapahoe had 6.7% or (24,801) of the votes.
+  - 
 * Denver had the largest number of votes.
 * The candidates who ran were Charles Casper Stockham, Diane Degette, and Raymon Anthony Doane.
   - Charles Casper Stockham had 23.0% or (85,213) of the votes.
