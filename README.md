@@ -6,10 +6,10 @@ The purpose of this Analysis was to help with a local congressional election aud
 
 # Resources
 
-python version 3.9.12 
-VS Code 1.71.2
-election_results.csv 
-election_results.txt
+* python version 3.9.12 
+* VS Code 1.71.2
+* election_results.csv 
+* election_results.txt
 
 ### Election - Audit Results
 
