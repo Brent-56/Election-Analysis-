@@ -14,7 +14,7 @@ The purpose of this Analysis was to help with a local congressional election aud
 ### Election - Audit Results
 
 * There were a total of 369,711 votes casted in this election.
-  - We found the total number of votes through this piece of code
+  - I found the total number of votes through this piece of code
  
  - election_results = (
         f"\nElection Results\n"
@@ -26,7 +26,7 @@ The purpose of this Analysis was to help with a local congressional election aud
     
     
 * There county's involved were Denver, Jefferson, and Arapahoe.
-  - We found county results through
+  - I found county results through
    
    county_results = f"{county_name}: {county_vote_percentage:.1f}% ({county_vote:,})\n"
             print(county_results)
